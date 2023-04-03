@@ -1,0 +1,114 @@
+/* * Row */
+.flex-row, .f-r {
+  display: flex;
+}
+
+.flex-row-center, .f-r-ct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-horzontal-center, .f-r-h-ct {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-row-horzontal-space-around, .f-r-h-sa {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-row-horzontal-space-between, .f-r-h-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-row-vertical-center, .f-r-v-ct {
+  display: flex;
+  align-items: center;
+}
+
+.flex-row-vertical-space-around, .f-r-v-sa {
+  display: flex;
+  align-items: space-around;
+}
+
+.flex-row-vertical-space-between, .f-r-v-sb {
+  display: flex;
+  align-items: space-between;
+}
+
+/* * Column */
+.flex-column, .f-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column-center, .f-c-ct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-horzontal-center, .f-c-h-ct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-column-horzontal-space-around, .f-c-h-sa {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+
+.flex-column-horzontal-space-between, .f-c-h-sb {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.flex-column-vertical-center, .f-c-v-ct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-column-vertical-space-around, .f-c-v-sa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-column-vertical-space-between, .f-c-v-sb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* * Properties */
+.flex-justify-content-center, .f-jc-ct {
+  justify-content: center;
+}
+
+.flex-justify-content-space-around, .f-jc-sa {
+  justify-content: space-around;
+}
+
+.flex-justify-content-space-between, .f-jc-sb {
+  justify-content: space-between;
+}
+
+.flex-align-items-center, .f-ai-ct {
+  align-items: center;
+}
+
+.flex-align-items-space-around, .f-ai-sa {
+  align-items: space-around;
+}
+
+.flex-align-items-space-between, .f-ai-sb {
+  align-items: space-between;
+}

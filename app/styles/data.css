@@ -1,0 +1,238 @@
+/* * Common */
+[data-diabled-link] {
+  pointer-events: none;
+}
+
+[data-no-selection] {
+  user-select: none;
+}
+
+[data-no-selection = 'default'] {
+  cursor: default;
+}
+
+[data-no-selection = 'pointer'] {
+  cursor: pointer;
+}
+
+[data-is-show = 'true'] {
+  display: block;
+}
+
+[data-is-show = 'false'] {
+  display: none;
+}
+
+/* * Font Size */
+[data-font-size = 'es'] {
+  font-size: 16px;
+}
+
+[data-font-size = 'sm'] {
+  font-size: 20px;
+}
+
+[data-font-size = 'md'] {
+  font-size: 24px;
+}
+
+[data-font-size = 'lg'] {
+  font-size: 28px;
+}
+
+[data-font-size = 'xl'] {
+  font-size: 32px;
+}
+
+[data-font-size = '2xl'] {
+  font-size: 64px;
+}
+
+[data-font-size = '4xl'] {
+  font-size: 128px;
+}
+
+/* * Font Weight */
+[data-font-weight = '300'] {
+  font-weight: 300;
+}
+
+[data-font-weight = '400'] {
+  font-weight: 400;
+}
+
+[data-font-weight = '700'] {
+  font-weight: 700;
+}
+
+[data-font-weight = '900'] {
+  font-weight: 900;
+}
+
+/* * View */
+[data-view = 'device'] {
+  width: 100vw;
+  height: 100vh;
+}
+
+[data-view = 'device-with-header'] {
+  height: calc(100vh - var(--desktop-header-height));
+}
+
+/* * Offsets */
+[data-offset = 'expanded'] {
+  width: 100%;
+  height: auto;
+}
+
+[data-offset = 'header'] {
+  width: 100vw;
+  height: var(--desktop-header-height);
+}
+
+[data-offset = 'footer'] {
+  width: 100vw;
+  height: var(--desktop-footer-height);
+}
+
+[data-offset = 'contents'] {
+  width: var(--desktop-contents-width);
+}
+
+[data-offset = 'card-gird'] {
+  width: calc(var(--desktop-contents-width) + 30px);
+}
+
+[data-offset = 'block-ads'] {
+  width: 100vw;
+  height: 640px;
+}
+
+/* * Border */
+[data-border-line] {
+  border-style: solid;
+}
+
+[data-border-line = 'top'] {
+  border-top-width: var(--border-width);
+}
+
+[data-border-line = 'right'] {
+  border-right-width: var(--border-width);
+}
+
+[data-border-line = 'bottom'] {
+  border-bottom-width: var(--border-width);
+}
+
+[data-border-line = 'left'] {
+  border-left-width: var(--border-width);
+}
+
+/* * nft card */
+[data-nft-card] {
+  width: 500px;
+  height: 614px;
+  margin: 15px;
+}
+
+[data-nft-card] > img {
+  width: 500px;
+  height: 500px;
+}
+
+[data-nft-card] .nft-card-like {
+  top: 26px;
+  right: 24px;
+  user-select: none;
+}
+
+/* * post card */
+[data-post-card] {
+  width: 400px;
+  height: 565px;
+}
+
+[data-post-card] > img {
+  width: 400px;
+  height: 400px;
+}
+
+/* * inline profile */
+[data-inline-profile = 'sm'] img {
+  width: 54px;
+  height: 54px;
+}
+
+[data-inline-profile = 'md'] img {
+  width: 84px;
+  height: 84px;
+}
+
+[data-inline-profile = 'sm'] p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+[data-inline-profile = 'md'] p {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+/* * price tag */
+[data-price-tag = 'sm'] img {
+  width: 25px;
+  height: 25px;
+}
+
+[data-price-tag = 'md'] img {
+  width: 25px;
+  height: 25px;
+}
+
+[data-price-tag = 'sm'] p {
+  font-size: 28px;
+  font-weight: 400;
+  padding-left: 2.5px;
+}
+
+[data-price-tag = 'md'] p {
+  font-size: 32px;
+  font-weight: 400;
+  padding-left: 2.5px;
+}
+
+/* * button */
+[data-button = 'sm'] {
+  width: 127px;
+  height: 53px;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+[data-button = 'md'] {
+  width: 340px;
+  height: 72px;
+  border-radius: 20px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+/* * icon button */
+[data-icon-button] {
+  width: auto;
+  height: auto;
+}
+
+[data-icon-button]:hover {
+  cursor: pointer;
+}
+
+[data-icon-button = 'sm'] {
+  width: 25px;
+}
+
+[data-icon-button = 'md'] {
+  width: 30px;
+}

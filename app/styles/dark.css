@@ -1,0 +1,60 @@
+.dark body {
+  background-color: var(--color-black);
+}
+
+.dark :is(h1, h2, h3, h4 ,h5 ,h6, p, label, input, textarea) {
+  color: var(--color-white);
+}
+
+.dark input::placeholder {
+  color: var(--color-gray07);
+}
+
+.dark [data-border-line] {
+  border-color: var(--color-gray08);
+}
+
+.dark [data-toggle-border-color='true'] {
+  border-color: var(--color-gray04);
+}
+
+.dark [data-toggle-border-color='false'] {
+  border-color: var(--color-gray08);
+}
+
+.dark [data-toggle-border-color='true'] .toggle-content-label > label {
+  color: var(--color-white);
+}
+
+.dark [data-toggle-border-color='false'] .toggle-content-label > label {
+  color: var(--color-gray07);
+}
+
+.dark [data-title-text] {
+  color: var(--color-white);
+}
+
+.dark [data-body-text = '1'] {
+  color: var(--color-gray06);
+}
+
+.dark [data-body-text = '2'] {
+  color: var(--color-gray08);
+}
+
+.dark [data-text-theme = 'sub-price'] {
+  color: var(--color-gray07);
+}
+
+.dark .glassmorphism {
+  background-color: var(--color-black-glass);
+}
+
+.dark .outline-button {
+  border-color: var(--color-white);
+  color: var(--color-white);
+}
+
+.dark .main-event-item-container {
+  background-color: var(--color-gray09);
+}

@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "@remix-run/eslint-config",
+    "@remix-run/eslint-config/node"
+  ],
+  "plugins": ["simple-import-sort", "react-hooks", "react"],
+  "rules": {
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "max-len": ["warn", { "code": 100 }],
+    "object-curly-spacing": ["error", "always"],
+    "comma-dangle": ["error", "always-multiline"],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "jsx-quotes": ["error", "prefer-single"],
+    "react/jsx-closing-tag-location": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-max-props-per-line": ["error", { "maximum": 1 }],
+    "react/boolean-prop-naming": "warn",
+    "react/display-name": "error",
+    "react/jsx-closing-bracket-location": ["error", "tag-aligned"],
+    "react/jsx-pascal-case": "error",
+    "react/no-direct-mutation-state": "error",
+    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-key": "warn",
+    "react/self-closing-comp": "error",
+    "react/jsx-curly-newline": ["error", { "multiline": "consistent", "singleline": "consistent" }],
+    "react/jsx-curly-spacing": "error",
+    "react/jsx-equals-spacing": "error",
+    "react/jsx-fragments": "error",
+    "react/jsx-indent": ["error", 2, { "indentLogicalExpressions": false }],
+    "react/jsx-indent-props": ["error", 2],
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-one-expression-per-line": "error",
+    "react/jsx-props-no-multi-spaces": "error",
+    "react/jsx-space-before-closing": "error",
+    "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }]
+  }
+}

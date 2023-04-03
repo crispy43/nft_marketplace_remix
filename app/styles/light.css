@@ -1,0 +1,60 @@
+.light body {
+  background-color: var(--color-white);
+}
+
+.light :is(h1, h2, h3, h4 ,h5 ,h6, p, label, input, textarea) {
+  color: var(--color-text-black);
+}
+
+.light input::placeholder {
+  color: var(--color-gray07);
+}
+
+.light [data-border-line] {
+  border-color: var(--color-gray02);
+}
+
+.light [data-toggle-border-color='true'] {
+  border-color: var(--color-black);
+}
+
+.light [data-toggle-border-color='false'] {
+  border-color: var(--color-gray02);
+}
+
+.light [data-toggle-border-color='true'] .toggle-content-label > label {
+  color: var(--color-black);
+}
+
+.light [data-toggle-border-color='false'] .toggle-content-label > label {
+  color: var(--color-gray05);
+}
+
+.light [data-title-text] {
+  color: var(--color-text-black);
+}
+
+.light [data-body-text = '1'] {
+  color: var(--color-gray05);
+}
+
+.light [data-body-text = '2'] {
+  color: var(--color-gray07);
+}
+
+.light [data-text-theme = 'sub-price'] {
+  color: var(--color-gray07);
+}
+
+.light .glassmorphism {
+  background-color: var(--color-white-glass);
+}
+
+.light .outline-button {
+  border-color: var(--color-black);
+  color: var(--color-black);
+}
+
+.light .main-event-item-container {
+  background-color: var(--color-gray00);
+}
